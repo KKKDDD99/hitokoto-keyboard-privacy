@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サポート — ひとことキーボード</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #faf9f6;
+    --card: #ffffff;
+    --ink: #1c1c1c;
+    --sub: #5a5a5a;
+    --border: #e4e0d6;
+    --accent: #b8860b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16150f;
+      --card: #201f19;
+      --ink: #f1efe8;
+      --sub: #b8b3a5;
+      --border: #3a3728;
+      --accent: #e0b84a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Segoe UI", sans-serif;
+    line-height: 1.8;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin: 0 0 6px;
+  }
+  .meta {
+    color: var(--sub);
+    font-size: 0.9rem;
+    margin-bottom: 32px;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 40px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  h3 {
+    font-size: 1rem;
+    margin: 24px 0 8px;
+    color: var(--accent);
+  }
+  p, li { color: var(--ink); }
+  ul { padding-left: 1.4em; }
+  li { margin-bottom: 4px; }
+  strong { color: var(--ink); }
+  .contact {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 16px;
+  }
+  code { font-size: 0.9em; }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--sub);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>サポート</h1>
+  <p class="meta">ひとことキーボード</p>
+
+  <h2>ひとことキーボードについて</h2>
+  <p>ご家族があらかじめ登録した短い文章（ひとこと）を、キーボード上のボタンをタップするだけで入力できる、iPhone・iPad向けのキーボードアプリです。</p>
+
+  <h2>使い方</h2>
+  <ul>
+    <li>本体アプリを開き、案内に従って「設定」アプリでキーボードを追加します。</li>
+    <li>ご家族が、本体アプリで言葉を登録します。</li>
+    <li>メッセージやメモを開き、地球儀のボタンでキーボードを「ひとことキーボード」に切り替えます。</li>
+  </ul>
+
+  <h2>よくあるご質問</h2>
+  <h3>登録した言葉がキーボードに表示されません</h3>
+  <p>キーボードの「フルアクセスを許可」がオンになっているかをご確認ください（設定 &gt; 一般 &gt; キーボード &gt; キーボード &gt; ひとことキーボード）。オフの場合は、あらかじめ用意したサンプルの言葉のみが表示されます。登録内容の変更は、キーボードを一度閉じて開き直すと反映されます。</p>
+  <h3>フルアクセスを許可しても安全ですか</h3>
+  <p>フルアクセスは、ご家族が登録した言葉をキーボードへ表示するためだけに使います。入力した内容を収集・保存・外部へ送信することはありません。詳しくは<a href="./">プライバシーポリシー</a>をご覧ください。</p>
+  <h3>購入したプレミアムプランを復元したい</h3>
+  <p>本体アプリのプレミアム案内画面にある「購入を復元する」をお試しください。機種変更時にも、再購入は必要ありません。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>ご不明な点・不具合のご連絡は、以下までお願いいたします。</p>
+  <div class="contact">
+    開発者: Katsunori Dei<br>
+    連絡先: <a href="mailto:kd04194@gmail.com">kd04194@gmail.com</a>
+  </div>
+
+  <footer>ひとことキーボード</footer>
+</div>
+</body>
+</html>
